@@ -1,1 +1,158 @@
+include ./mixin
 doctype!
+html
+	head
+		meta(charset = "UTF-8")
+		title W
+		link(rel="stylesheet", href="resources/css/bootstrap.min.css")
+		link(rel="stylesheet", href="resources/font-awesome/css/font-awesome.min.css")
+		link(rel="stylesheet", href="resources/css/main.css")
+		//-fonts by Google Apis 
+		link(href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css')
+	body
+		section#home
+			.container-fluid
+				.row
+					.col-md-12.text-center
+						.logo
+							img(src="", alt="")
+						.secciones
+							.section
+								a(href='#about') About
+							.section
+								a(href='#proyectos') Proyectos
+							.section
+								a(href='#skills') Skills
+							.section
+								a(href='#contact') Contact
+		section#portafolio-body
+			.container-fluid
+				.row
+					.col-md-1.navigation-tool.fixed
+						ul
+							li
+								a(href="#home")
+									img(src="", alt="logo-w")
+							li
+								a(href='#about') About
+							li
+								a(href='#proyectos') Proyectos
+							li
+								a(href='#skills') Skills
+							li
+								a(href='#contact') Contact
+					.col-md-11
+						section#about
+							.container
+								.row
+									.col-md-6.text-center
+										img(src="", alt="wphoto")
+									.col-md-6
+										h2
+										p
+						section#proyectos
+							.container
+								.row
+									.col-md-4
+										.proyecto
+											.p-box
+												img(src="", alt="agencytheme")
+											.d-box
+												a(href="")
+													i.fa.fa-github
+										.proyecto
+											.p-box
+												img(src="", alt="agencytheme")
+											.d-box
+												a(href="")
+													i.fa.fa-github
+									.col-md-4
+										.proyecto
+											.p-box
+												img(src="", alt="agencytheme")
+											.d-box
+												a(href="")
+													i.fa.fa-github
+										.proyecto
+											.p-box
+												img(src="", alt="agencytheme")
+											.d-box
+												a(href="")
+													i.fa.fa-github
+									.col-md-4
+										.proyecto
+											.p-box
+												img(src="", alt="agencytheme")
+											.d-box
+												a(href="")
+													i.fa.fa-github
+										.proyecto
+											.p-box
+												img(src="", alt="agencytheme")
+											.d-box
+												a(href="")
+													i.fa.fa-github
+						section#skills
+							.container
+								.row
+									.col-md-4
+										.skill
+											.img-box
+												img(src="", alt="skills")
+											.content-box
+												p Comunicadora
+										.skill
+											.img-box
+												img(src="", alt="skills")
+											.content-box
+												p Social Media
+									.col-md-4
+										.skill
+											.img-box
+												img(src="", alt="skills")
+											.content-box
+												p Publicista
+										.skill
+											.img-box
+												img(src="", alt="skills")
+											.content-box
+												p Wed Developer
+									.col-md-4
+										.skill
+											.img-box
+												img(src="", alt="skills")
+											.content-box
+												p Creativa
+										.skill
+											.img-box
+												img(src="", alt="skills")
+											.content-box
+												p Google for Work
+						section#contact
+							.container
+								.row
+									.col-md-6
+										form
+									.col-md-6
+										.container.social
+											.row
+												.col-md-6
+													.social-box
+														a(href="https://www.linkedin.com")
+															i.fa.fa-linkedin.fa-2x
+													.social-box
+														a(href="https://www.linkedin.com")
+															i.fa.fa-github.fa-3x
+													.social-box
+														a(href="https://www.linkedin.com")
+															i.fa.fa-hangouts.fa-2x
+												.col-md-6
+													.social-box
+														a(href="https://www.linkedin.com")
+															i.fa.fa-telegram.fa-2x
+													.social-box
+														a(href="https://www.linkedin.com")
+															i.fa.fa-whatsapp.fa-2x
+													.social-box
+														a(href="https://www.linkedin.com")
+															i.fa.fa-pinterest.fa-2x
