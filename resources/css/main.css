@@ -1,23 +1,69 @@
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Amatic SC', cursive; }
+
+span p {
+  font-family: 'Josefin Sans', sans-serif; }
+
 a {
   text-decoration: none; }
 
 ul ol {
   list-style-type: none; }
 
+h1 {
+  font-size: 3.5em;
+  text-align: center;
+  color: #3f2738;
+  margin-top: 3%;
+  margin-bottom: 3%; }
+
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #f1f1f1; }
+  background-color: #423733; }
 
 li a {
   display: block;
-  color: #000;
-  padding: 8px 0 8px 16px;
+  color: #3f2738;
+  background-color: #d9a2aa;
   text-decoration: none;
-  padding: 25%; }
+  padding: 30%;
+  width: 100%;
+  height: 20%;
+  text-align: left;
+  font-size: 1.5em; }
   li a:hover {
-    background-color: #555;
-    color: white; }
+    background-color: #3f2738;
+    color: #d9a2aa; }
+
+.navbar-fixed-left {
+  width: 12%;
+  height: 100%;
+  position: fixed;
+  margin-left: -1em; }
+
+#about img {
+  width: 100%;
+  transform: rotate(-90deg);
+  position: absolute;
+  top: 4em;
+  left: 4.5em;
+  padding: 8%;
+  border: solid 2px #d9a2aa;
+  margin: 2%; }
+#about p {
+  padding: 20%; }
+
+#proyectos .proyecto {
+  margin: 5%; }
+#proyectos .p-box {
+  width: 12em;
+  height: 12em;
+  border: solid 1px #3f2738;
+  padding: 2%;
+  margin: 1%; }
+#proyectos .d-box {
+  margin: 1%; }
 
 /*# sourceMappingURL=main.css.map */
