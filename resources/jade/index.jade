@@ -11,14 +11,12 @@ html
 		link(href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css')
 		link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300italic,300,600,700' rel='stylesheet' type='text/css')
 	body
-		section#home
-			.container-fluid
-				.row
-					.col-md-12.text-center
+		header#home
+			.container
+				.home.text-center
 						.logo
 							img(src="", alt="logo-w")
-				.row
-					.col-md-12.text-center
+				.home.text-center
 						.secciones
 							.section
 								a(href='#about') About
@@ -28,6 +26,7 @@ html
 								a(href='#skills') Skills
 							.section
 								a(href='#contact') Contact
+
 		section#portafolio-body
 			.container-fluid
 				.row
@@ -46,125 +45,124 @@ html
 								li
 									a(href='#contact') Contact
 					.col-md-10
-						section#about
-							.container
-								.row
-									h1.text-center Esta soy yo...
-									.col-md-offset-1.col-md-3.text-center
-										img(src="resources/images/w.jpeg", alt="wphoto")
-									.col-md-6.text-left
-										p Mi nombre es Maria Victoria pero me dicen Mavi o "W". Estudio comunicaciones y desarrollo web, me apasiona la publicidad, los insights, el diseño, la literatura y el branding-emocional. Me encanta hacer paginas web y construir marcas; soy creativa, práctica, directa y eficiente.
-						section#proyectos
+						.seccion#about.pink-bckg
+							.row.text-center.resize
+								h1 Esta soy yo...
+								.col-md-3
+									img(src="resources/images/hojas.png", alt="hojas").hojas
+								.col-md-6
+									p Mi nombre es Maria Victoria pero me dicen Mavi o "W". Estudio comunicaciones y desarrollo web, me apasiona la publicidad, los insights, el diseño, la literatura y el branding-emocional. Me encanta hacer paginas web y construir marcas; soy creativa, práctica, directa y eficiente.
+								.col-md-3
+									img(src="resources/images/w.jpeg", alt="wphoto").picture
+						
+						.seccion#proyectos
 							h1 Estos son algunos de los proyectos que he hecho
-							.container.text-center
-								.row
-									.col-md-4
-										.proyecto
-											.p-box
-												img(src="", alt="proyecto-dobler")
-											.d-box
-												a(href="")
-													i.fa.fa-github
-										.proyecto
-											.p-box
-												img(src="", alt="organizator-bluemix")
-											.d-box
-												a(href="")
-													i.fa.fa-github
-									.col-md-4
-										.proyecto
-											.p-box
-												img(src="", alt="agencytheme")
-											.d-box
-												a(href="")
-													i.fa.fa-github
-										.proyecto
-											.p-box
-												img(src="", alt="adventuretime-theme")
-											.d-box
-												a(href="")
-													i.fa.fa-github
-									.col-md-4
-										.proyecto
-											.p-box
-												img(src="", alt="tictactoe")
-											.d-box
-												a(href="")
-													i.fa.fa-github
-										.proyecto
-											.p-box
-												img(src="", alt="ecomunidad")
-											.d-box
-												a(href="")
-													i.fa.fa-github
-						section#skills
+							.row.text-center
+								.col-md-4
+									.proyecto
+										.p-box
+											img(src="", alt="proyecto-dobler")
+										.d-box
+											a(href="")
+												i.fa.fa-github
+									.proyecto
+										.p-box
+											img(src="", alt="organizator-bluemix")
+										.d-box
+											a(href="")
+												i.fa.fa-github
+								.col-md-4
+									.proyecto
+										.p-box
+											img(src="", alt="agencytheme")
+										.d-box
+											a(href="")
+												i.fa.fa-github
+									.proyecto
+										.p-box
+											img(src="", alt="adventuretime-theme")
+										.d-box
+											a(href="")
+												i.fa.fa-github
+								.col-md-4
+									.proyecto
+										.p-box
+											img(src="", alt="tictactoe")
+										.d-box
+											a(href="")
+												i.fa.fa-github
+									.proyecto
+										.p-box
+											img(src="", alt="ecomunidad")
+										.d-box
+											a(href="")
+												i.fa.fa-github
+						
+						.seccion#skills
 							h1 Skills
-							.container.text-center
-								.row
-									.col-md-4
-										.skill
-											.img-box
-												img(src="", alt="comunicador-skills")
-											.content-box
-												p Comunicadora
-										.skill
-											.img-box
-												img(src="", alt="socialmedia-skills")
-											.content-box
-												p Social Media
-									.col-md-4
-										.skill
-											.img-box
-												img(src="", alt="publicista-skills")
-											.content-box
-												p Publicista
-										.skill
-											.img-box
-												img(src="", alt="webdeveloper-skills")
-											.content-box
-												p Wed Developer
-									.col-md-4
-										.skill
-											.img-box
-												img(src="", alt="creativa-skills")
-											.content-box
-												p Creativa
-										.skill
-											.img-box
-												img(src="", alt="google-skills")
-											.content-box
-												p Google for Work
-						section#contact
+							.row.text-center
+								.col-md-4
+									.skill
+										.img-box
+											img(src="", alt="comunicador-skills")
+										.content-box
+											p Comunicadora
+									.skill
+										.img-box
+											img(src="", alt="socialmedia-skills")
+										.content-box
+											p Social Media
+								.col-md-4
+									.skill
+										.img-box
+											img(src="", alt="publicista-skills")
+										.content-box
+											p Publicista
+									.skill
+										.img-box
+											img(src="", alt="webdeveloper-skills")
+										.content-box
+											p Wed Developer
+								.col-md-4
+									.skill
+										.img-box
+											img(src="", alt="creativa-skills")
+										.content-box
+											p Creativa
+									.skill
+										.img-box
+											img(src="", alt="google-skills")
+										.content-box
+											p Google for Work
+						
+						.seccion#contact
 							h1 Pongamonos en contacto!
 							p Si te gustan las cosas que puedo hacer y quieres que trabajemos juntos, puedes ponerte en contacto conmigo a traves de estos medios:
-							.container
-								.row
-									.col-md-offset-1.col-md-5
-										.row
-											.col-md-6
-												.social-box
-													a(href="https://www.linkedin.com")
-														i.fa.fa-linkedin.fa-2x
-												.social-box
-													a(href="https://www.linkedin.com")
-														i.fa.fa-github.fa-2x
-												.social-box
-													a(href="https://www.linkedin.com")
-														i.fa.fa-hangouts.fa-2x
-											.col-md-6
-												.social-box
-													a(href="https://www.linkedin.com")
-														i.fa.fa-telegram.fa-2x
-												.social-box
-													a(href="https://www.linkedin.com")
-														i.fa.fa-whatsapp.fa-2x
-												.social-box
-													a(href="https://www.linkedin.com")
-														i.fa.fa-pinterest.fa-2x
-									.col-md-5
-										form
-										+input("Nombre")
-										+input("Correo")
-										+input("Asunto")
-										+textarea
-										button.btn Send Message
+							.row
+								.col-md-offset-1.col-md-3
+									.social-box
+										a(href="https://www.linkedin.com")
+											i.fa.fa-linkedin.fa-2x
+									.social-box
+										a(href="https://www.linkedin.com")
+											i.fa.fa-github.fa-2x
+									.social-box
+										a(href="https://www.linkedin.com")
+											i.fa.fa-hangouts.fa-2x
+								.col-md-3
+									.social-box
+										a(href="https://www.linkedin.com")
+											i.fa.fa-telegram.fa-2x
+									.social-box
+										a(href="https://www.linkedin.com")
+											i.fa.fa-whatsapp.fa-2x
+									.social-box
+										a(href="https://www.linkedin.com")
+											i.fa.fa-pinterest.fa-2x
+								.col-md-5
+									form
+									+input("Nombre")
+									+input("Correo")
+									+input("Asunto")
+									+textarea
+									button.btn Send Message

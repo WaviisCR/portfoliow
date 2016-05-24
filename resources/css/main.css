@@ -11,10 +11,10 @@ ul ol {
   list-style-type: none; }
 
 h1 {
-  font-size: 3.5em;
+  font-size: 4em;
   text-align: center;
   color: #3f2738;
-  margin-top: 3%;
+  margin-top: 3.5%;
   margin-bottom: 3%; }
 
 ul {
@@ -43,20 +43,36 @@ li a {
   position: fixed;
   margin-left: -1em; }
 
-#about img {
+#about .resize {
+  height: 42em; }
+#about .picture {
   width: 100%;
   transform: rotate(-90deg);
   position: absolute;
-  top: 4em;
-  left: 4.5em;
-  padding: 8%;
+  top: 9em;
+  left: -3em;
+  padding: 10%;
   border: solid 2px #d9a2aa;
   margin: 2%; }
 #about p {
-  padding: 20%; }
+  padding: 20%;
+  line-height: 2.5;
+  position: absolute;
+  top: 2em; }
+#about .hojas {
+  position: absolute;
+  top: -275px;
+  left: 3em;
+  width: 90%; }
+
+.pink-bckg {
+  background-image: url(../images/uncolor.png);
+  background-position-x: 12em;
+  background-position-y: 5em;
+  background-repeat: no-repeat; }
 
 #proyectos .proyecto {
-  margin: 5%; }
+  margin: auto; }
 #proyectos .p-box {
   width: 12em;
   height: 12em;
