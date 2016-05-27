@@ -17,6 +17,25 @@ h1 {
   margin-top: 3.5%;
   margin-bottom: 3%; }
 
+header {
+  background-color: #3f2738; }
+  header a {
+    color: #3f2738;
+    font-family: 'Amatic SC', cursive; }
+    header a:hover {
+      color: #edc8bf;
+      background-color: #3f2738; }
+  header .row {
+    background-image: url(../images/bordes-01.png);
+    margin-top: 2.5em;
+    margin-bottom: 3.5em; }
+  header img {
+    margin: 15%; }
+  header .section {
+    font-size: 2.5em;
+    padding: 3%;
+    font-weight: bold; }
+
 ul {
   list-style-type: none;
   margin: 0;
@@ -61,14 +80,15 @@ li a {
   top: 2em; }
 #about .hojas {
   position: absolute;
-  top: -275px;
-  left: 3em;
-  width: 90%; }
+  z-index: -1;
+  top: -315px;
+  left: 1em;
+  width: 94%; }
 
 .pink-bckg {
   background-image: url(../images/uncolor.png);
-  background-position-x: 12em;
-  background-position-y: 5em;
+  background-position-x: 16em;
+  background-position-y: 1em;
   background-repeat: no-repeat; }
 
 #proyectos .proyecto {

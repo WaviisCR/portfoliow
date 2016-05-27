@@ -21,14 +21,15 @@
 	}
 	.hojas{
 		position: absolute;
-   		top: -275px;
-   		left: 3em;
-    	width: 90%;
+		z-index: -1;
+   		top: -315px;
+   		left: 1em;
+    	width: 94%;
 	}
 }
 .pink-bckg{
 	background-image: url(../images/uncolor.png);
-	background-position-x: 12em;
-    background-position-y: 5em;
+	background-position-x: 16em;
+    background-position-y: 1em;
     background-repeat: no-repeat;
 }
