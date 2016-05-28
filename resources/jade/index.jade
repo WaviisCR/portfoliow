@@ -3,6 +3,7 @@ doctype!
 html
 	head
 		meta(charset = "UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
 		title W
 		link(rel="stylesheet", href="resources/css/bootstrap.min.css")
 		link(rel="stylesheet", href="resources/font-awesome/css/font-awesome.min.css")
@@ -29,7 +30,7 @@ html
 		section#portafolio-body
 			.container-fluid
 				.row
-					.col-md-2
+					.col-md-2.hidden-xs
 						.navbar.navbar-fixed-left
 							ul
 								li
@@ -47,7 +48,7 @@ html
 						.seccion#about.pink-bckg
 							.row.text-center.resize
 								h1 Esta soy yo...
-								.col-md-3
+								.col-md-3.hidden-xs
 									img(src="resources/images/hojas.png", alt="hojas").hojas
 								.col-md-6
 									p Mi nombre es Maria Victoria pero me dicen Mavi o "W". Estudio comunicaciones y desarrollo web, me apasiona la publicidad, los insights, el diseño, la literatura y el branding-emocional. Me encanta hacer paginas web y construir marcas; soy creativa, práctica, directa y eficiente.
@@ -138,26 +139,26 @@ html
 							h1 Pongamonos en contacto!
 							p Si te gustan las cosas que puedo hacer y quieres que trabajemos juntos, puedes ponerte en contacto conmigo a traves de estos medios:
 							.row
-								.col-md-offset-1.col-md-3
+								.col-md-offset-1.col-md-2.text-center
 									.social-box
 										a(href="https://www.linkedin.com")
-											i.fa.fa-linkedin.fa-2x
+											img(src="resources/images/linkedin-logo.png", alt="logo-linkedin")
 									.social-box
-										a(href="https://www.linkedin.com")
+										a(href="https://www.github.com")
 											i.fa.fa-github.fa-2x
 									.social-box
-										a(href="https://www.linkedin.com")
-											i.fa.fa-hangouts.fa-2x
-								.col-md-3
+										a(href="https://www.hangouts.com")
+											img(src="resources/images/hangouts-logo.png", alt="logo-linkedin")
+								.col-md-2.text-center
 									.social-box
 										a(href="https://www.linkedin.com")
-											i.fa.fa-telegram.fa-2x
+											img(src="resources/images/telegram-logo.png", alt="logo-linkedin")
 									.social-box
 										a(href="https://www.linkedin.com")
-											i.fa.fa-whatsapp.fa-2x
+											img(src="resources/images/whatsapp-logo.png", alt="logo-linkedin")
 									.social-box
 										a(href="https://www.linkedin.com")
-											i.fa.fa-pinterest.fa-2x
+											img(src="resources/images/pinterest-logo.png", alt="logo-linkedin")
 								.col-md-5
 									form
 									+input("Nombre")

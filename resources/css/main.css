@@ -91,6 +91,14 @@ li a {
   background-position-y: 1em;
   background-repeat: no-repeat; }
 
+#contact .social-box {
+  width: 5em;
+  height: 5em;
+  margin: 2%;
+  padding: 1%; }
+#contact i {
+  color: #423733; }
+
 #proyectos .proyecto {
   margin: auto; }
 #proyectos .p-box {
