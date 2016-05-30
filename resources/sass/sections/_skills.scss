@@ -1,0 +1,40 @@
+#skills {
+	.skill{
+		margin: 8%;
+		padding: 6%;
+	}
+	
+    .img-box {
+        width: 16em;
+        height: 16em;
+        background-size: cover;
+        background-position: center;
+        padding: 2%;
+        margin: 2%;
+        border: solid 1px $soft-pink;
+    }
+
+    .comunicador {
+        background-image: url(../images/comunic_16-01.jpg);
+    }
+
+    .socialmedia {
+        background-image: url(../images/socialmedia2.png);
+    }
+
+    .publicista {
+        background-image: url(../images/publicista.jpg);
+    }
+
+    .webdeveloper {
+        background-image: url(../images/webdeveloper.jpg);
+    }
+
+    .creativa {
+        background-image: url(../images/creative.jpg);
+    }
+
+    .google {
+        background-image: url(../images/GoogleApps.png);
+    }
+}

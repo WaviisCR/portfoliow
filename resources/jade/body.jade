@@ -1,0 +1,171 @@
+include ./mixin
+doctype!
+html
+	head
+		meta(charset = "UTF-8")
+		meta(name="viewport" content="width=device-width, initial-scale=1")
+		title W
+		link(rel="stylesheet", href="resources/css/bootstrap.min.css")
+		link(rel="stylesheet", href="resources/font-awesome/css/font-awesome.min.css")
+		link(rel="stylesheet", href="resources/css/main.css")
+		//-fonts by Google Apis 
+		link(href='https://fonts.googleapis.com/css?family=Amatic+SC:400,700' rel='stylesheet' type='text/css')
+		link(href='https://fonts.googleapis.com/css?family=Josefin+Sans:400,400italic,300italic,300,600,700' rel='stylesheet' type='text/css')
+	body
+		.container-fluid#portafolio-body
+			.row
+				.col-md-2.hidden-xs
+					.navbar.navbar-fixed-left
+						ul
+							li
+								a.brand(href="index.html")
+									img(src="resources/images/navbarbrand.png", alt="logo-w")
+							li
+								a.pd-30(href='#about') About
+							li
+								a.pd-30(href='#proyectos') Proyectos
+							li
+								a.pd-30(href='#skills') Skills
+							li
+								a.pd-30(href='#contact') Contact
+				.col-md-10
+					.seccion#about.pink-bckg
+						.title 
+							h1 Esta soy yo...
+						.row.text-center.resize
+							.col-md-3.hidden-xs
+								img(src="resources/images/hojas.png", alt="hojas").hojas
+							.col-md-6
+								p Mi nombre es Maria Victoria pero me dicen Mavi o "W". Estudio comunicaciones y desarrollo web, me apasiona la publicidad, los insights, el diseño, la literatura y el branding-emocional. Me encanta hacer paginas web y construir marcas; soy creativa, práctica, directa y eficiente.
+							.col-md-3
+								img(src="resources/images/w.jpeg", alt="wphoto").picture
+					
+					.seccion#proyectos
+						.title 
+							h1 Estos son algunos de los proyectos que he hecho
+						.row.text-center
+							.col-md-4
+								.proyecto
+									.p-box
+										img(src="resources/images/", alt="proyecto-dobler")
+									.d-box
+										a(href="https://doblerestudios.com.pe")
+											i.fa.fa-github
+								.proyecto
+									.p-box
+										img(src="resources/images/organizator.jpg", alt="organizator-bluemix")
+									.d-box
+										a(href="https://www.responsinator.com/?url=https%3A%2F%2Forganizatordev11.mybluemix.net%2Findex.html")
+											i.fa.fa-github
+							.col-md-4
+								.proyecto
+									.p-box
+										img(src="resources/images/agency.jpg", alt="agencytheme")
+									.d-box
+										a(href="http://waviiscr.github.io/Agency-Theme/")
+											i.fa.fa-github
+								.proyecto
+									.p-box
+										img(src="resources/imagesadventure.jpg", alt="adventuretime-theme")
+									.d-box
+										a(href="http://waviiscr.github.io/AdventureTimeTheme/")
+											i.fa.fa-github
+							.col-md-4
+								.proyecto
+									.p-box
+										img(src="resources/images/tictactoe.jpg", alt="tictactoe")
+									.d-box
+										a(href="http://waviiscr.github.io/TicTacToe/")
+											i.fa.fa-github
+								.proyecto
+									.p-box
+										img(src="resources/images/ecomunidad.jpg", alt="ecomunidad")
+									.d-box
+										a(href="http://waviiscr.github.io/Ecomunidad/")
+											i.fa.fa-github
+					
+					.seccion#skills
+						.title 
+							h1 Skills
+						.row.text-center
+							.col-md-4
+								.skill
+									.img-box.comunicador
+									.content-box
+										h3 Comunicadora
+								.skill
+									.img-box.socialmedia
+									.content-box
+										h3 Social Media
+							.col-md-4
+								.skill
+									.img-box.publicista
+									.content-box
+										h3 Publicista
+								.skill
+									.img-box.webdeveloper
+									.content-box
+										h3 Wed Developer
+							.col-md-4
+								.skill
+									.img-box.creativa
+									.content-box
+										h3 Creativa
+								.skill
+									.img-box.google
+									.content-box
+										h3 Google for Work
+					
+					.seccion#contact.bckg-sincorte
+						.title 
+							h1 Pongamonos en contacto!
+							p Si te gustan las cosas que puedo hacer y quieres que trabajemos juntos, puedes ponerte en contacto conmigo a traves de estos medios:
+						.row
+							.col-md-2
+								.social
+									.social-box
+										a(href="https://www.linkedin.com/in/mvcardenas")
+											img(src="resources/images/linkedin-logo.png", alt="logo-linkedin")
+									.social-descrip
+										p Aqui están mi perfil profesional y mi cv.
+								.social
+									.social-box
+										a(href="https://github.com/WaviisCR")
+											i.fa.fa-github
+									.social-descrip
+										p Aqui puedes ver los proyectos que he hecho.
+								
+							.col-md-2
+								.social
+									.social-box
+										a(href="https://www.hangouts.com")
+											img(src="resources/images/hangouts-logo.png", alt="logo-hangouts")
+									.social-descrip
+										p Puedes escribirme a m.cardenas.vr@gmail.com.
+								.social
+									.social-box
+										a(href="https://www.pinterest.com/waviis/")
+											img(src="resources/images/pinterest-logo.png", alt="logo-pinterest")
+									.social-descrip
+										p Aqui puedes ver mi inspiración.
+							.col-md-2
+								.social
+									.social-box
+										a(href="https://web.telegram.org/#/login")
+											img(src="resources/images/telegram-logo.png", alt="logo-telegram")
+									.social-descrip
+										p Buscame como @WaviisCR.
+								.social
+									.social-box
+										a(href="https://web.whatsapp.com/")
+											img(src="resources/images/whatsapp-logo.png", alt="logo-whatsapp")
+									.social-descrip
+										p Escribeme al 994384056.
+								
+							.col-md-5
+								form
+									+input("Nombre")
+									+input("Correo")
+									+input("Asunto")
+									+textarea
+									button.btn Send Message

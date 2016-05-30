@@ -11,11 +11,14 @@ ul ol {
   list-style-type: none; }
 
 h1 {
-  font-size: 4em;
+  font-size: 4.2em;
   text-align: center;
   color: #3f2738;
-  margin-top: 3.5%;
+  margin-top: 4%;
   margin-bottom: 3%; }
+
+.pd-30 {
+  padding: 30%; }
 
 header {
   background-color: #3f2738; }
@@ -24,7 +27,9 @@ header {
     font-family: 'Amatic SC', cursive; }
     header a:hover {
       color: #edc8bf;
-      background-color: #3f2738; }
+      background-color: #3f2738;
+      padding: 8%;
+      font-size: 1em; }
   header .row {
     background-image: url(../images/bordes-01.png);
     margin-top: 2.5em;
@@ -42,34 +47,39 @@ ul {
   padding: 0;
   background-color: #423733; }
 
+.brand {
+  background-color: #3f2738; }
+
 li a {
   display: block;
   color: #3f2738;
   background-color: #d9a2aa;
   text-decoration: none;
-  padding: 30%;
-  width: 100%;
   height: 20%;
-  text-align: left;
+  text-align: center;
   font-size: 1.5em; }
   li a:hover {
     background-color: #3f2738;
     color: #d9a2aa; }
+  li a img {
+    width: 5em;
+    height: 5em;
+    margin: 14%; }
 
 .navbar-fixed-left {
-  width: 12%;
+  width: 15%;
   height: 100%;
   position: fixed;
-  margin-left: -1em; }
+  margin-left: -15px; }
 
 #about .resize {
   height: 42em; }
 #about .picture {
-  width: 100%;
+  width: 114%;
   transform: rotate(-90deg);
   position: absolute;
-  top: 9em;
-  left: -3em;
+  top: 11em;
+  left: -5em;
   padding: 10%;
   border: solid 2px #d9a2aa;
   margin: 2%; }
@@ -77,13 +87,12 @@ li a {
   padding: 20%;
   line-height: 2.5;
   position: absolute;
-  top: 2em; }
+  font-size: 1.2em; }
 #about .hojas {
   position: absolute;
-  z-index: -1;
-  top: -315px;
+  top: -23em;
   left: 1em;
-  width: 94%; }
+  width: 100%; }
 
 .pink-bckg {
   background-image: url(../images/uncolor.png);
@@ -91,23 +100,72 @@ li a {
   background-position-y: 1em;
   background-repeat: no-repeat; }
 
-#contact .social-box {
-  width: 5em;
-  height: 5em;
-  margin: 2%;
-  padding: 1%; }
-#contact i {
-  color: #423733; }
+.bckg-sincorte {
+  background-image: url(../images/sin-corte.png); }
+
+#contact {
+  padding-bottom: 4%; }
+  #contact p {
+    font-size: 1.2em; }
+  #contact .social {
+    width: 9em;
+    margin: 14%;
+    padding: 8%; }
+  #contact .social-box {
+    width: 5em;
+    height: 5em;
+    margin: 14%;
+    padding: 24%;
+    background-color: #3f2738; }
+  #contact i {
+    color: #423733;
+    font-size: 1.5em; }
+  #contact form {
+    margin: 5%; }
+  #contact img {
+    width: 1.5em; }
+  #contact .social-descrip {
+    width: 8em; }
+    #contact .social-descrip p {
+      font-size: 0.8em;
+      margin: 3%;
+      padding: 2%; }
 
 #proyectos .proyecto {
   margin: auto; }
 #proyectos .p-box {
-  width: 12em;
-  height: 12em;
+  width: 20em;
+  height: 13em;
   border: solid 1px #3f2738;
-  padding: 2%;
-  margin: 1%; }
+  padding: 4%;
+  margin: 2%; }
 #proyectos .d-box {
   margin: 1%; }
+#proyectos img {
+  width: 100%; }
+
+#skills .skill {
+  margin: 8%;
+  padding: 6%; }
+#skills .img-box {
+  width: 16em;
+  height: 16em;
+  background-size: cover;
+  background-position: center;
+  padding: 2%;
+  margin: 2%;
+  border: solid 1px #FAEBD7; }
+#skills .comunicador {
+  background-image: url(../images/comunic_16-01.jpg); }
+#skills .socialmedia {
+  background-image: url(../images/socialmedia2.png); }
+#skills .publicista {
+  background-image: url(../images/publicista.jpg); }
+#skills .webdeveloper {
+  background-image: url(../images/webdeveloper.jpg); }
+#skills .creativa {
+  background-image: url(../images/creative.jpg); }
+#skills .google {
+  background-image: url(../images/GoogleApps.png); }
 
 /*# sourceMappingURL=main.css.map */

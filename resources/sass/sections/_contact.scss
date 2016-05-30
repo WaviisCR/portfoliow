@@ -1,11 +1,47 @@
-#contact{
-	.social-box{
-		width: 5em;
-		height: 5em;
-		margin: 2%;
-		padding: 1%;
-	}
-	i{
-		color: $pink;
-	}
+.bckg-sincorte {
+    background-image: url(../images/sin-corte.png);
+}
+
+#contact {
+    p {
+        font-size: 1.2em;
+    }
+
+    .social {
+        width: 9em;
+        margin: 14%;
+        padding: 8%;
+    }
+
+    .social-box {
+            width: 5em;
+    height: 5em;
+    margin: 14%;
+    padding: 24%;
+        background-color: $granate;
+    }
+
+    i {
+        color: $pink;
+        font-size: 1.5em;
+    }
+
+    form {
+        margin: 5%;
+    }
+
+    img {
+        width: 1.5em;
+    }
+
+    .social-descrip {
+        width: 8em;
+
+        p {
+            font-size: 0.8em;
+            margin: 3%;
+            padding: 2%;
+        }
+    }
+    padding-bottom: 4%;
 }

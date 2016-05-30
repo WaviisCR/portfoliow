@@ -1,28 +1,37 @@
 ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	background-color: $pink;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: $pink;
 }
-
+.brand{
+		background-color: $granate;
+	}
 li a {
+	
     display: block;
     color: #3f2738;
     background-color: #d9a2aa;
     text-decoration: none;
-    padding: 30%;
-    width: 100%;
     height: 20%;
-    text-align: left;
+    text-align: center;
     font-size: 1.5em;
-	&:hover {
-		background-color: $granate;
-		color:$rose;
-	}
+
+    &:hover {
+        background-color: $granate;
+        color: $rose;
+    }
+
+    img {
+        width: 5em;
+        height: 5em;
+        margin: 14%;
+    }
 }
+
 .navbar-fixed-left {
-	width:12%;
-	height: 100%;
-  position: fixed;
-  margin-left: -1em;
+    width: 15%;
+    height: 100%;
+    position: fixed;
+    margin-left: -15px;
 }

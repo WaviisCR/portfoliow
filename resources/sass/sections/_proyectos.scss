@@ -3,13 +3,16 @@
 		margin:auto;
 	}
 	.p-box{
-		width: 12em;
-		height: 12em;
+		width: 20em;
+		height: 13em;
 		border: solid 1px $granate;
-		padding: 2%;
-		margin: 1%;
+		padding: 4%;
+		margin: 2%;
 	}
 	.d-box{
 		margin:1%;
+	}
+	img{
+		width: 100%;
 	}
 }
