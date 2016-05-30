@@ -1,16 +1,37 @@
 #about {
-	img {
-		width: 100%;
-		transform: rotate(-90deg);
-		position: absolute;
-		top: 4em;
-		left:4.5em;
-		padding: 8%;
-		border: solid 2px $rose;
-		margin:2%;
-		}
+    .resize {
+        height: 42em;
+    }
 
-	p {
-		padding: 20%;
-	}
+    .picture {
+    width: 114%;
+    transform: rotate(-90deg);
+    position: absolute;
+    top: 11em;
+    left: -5em;
+    padding: 10%;
+    border: solid 2px #d9a2aa;
+    margin: 2%;
+    }
+
+    p {
+        padding: 20%;
+        line-height: 2.5;
+        position: absolute;
+        font-size: 1.2em;
+    }
+
+    .hojas {
+        position: absolute;
+        top: -23em;
+        left: 1em;
+        width: 100%;
+    }
+}
+
+.pink-bckg {
+    background-image: url(../images/uncolor.png);
+    background-position-x: 16em;
+    background-position-y: 1em;
+    background-repeat: no-repeat;
 }

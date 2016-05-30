@@ -1,0 +1,31 @@
+header {
+    background-color: $granate;
+
+    a {
+        color: $granate;
+        font-family: 'Amatic SC', cursive;
+
+        &:hover {
+            color: $soft-rose;
+            background-color: $granate;
+            padding:8%;
+            font-size: 1em;
+        }
+    }
+
+    .row {
+        background-image: url(../images/bordes-01.png);
+        margin-top: 2.5em;
+        margin-bottom: 3.5em;
+    }
+
+    img {
+        margin: 15%;
+    }
+
+    .section {
+        font-size: 2.5em;
+        padding: 3%;
+        font-weight: bold;
+    }
+}
