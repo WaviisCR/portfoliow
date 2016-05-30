@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1450px) and (max-width: 2560px) {
+    h1 {
+        font-size: 6.5em;
+    }
+
+    .navbar-fixed-left {
+        width: 12%;
+
+        a {
+            font-size: 2.2em;
+        }
+    }
+
+    #about {
+        .hojas {
+            top: -43em;
+            width: 85%;
+        }
+
+        p {
+            font-size: 2em;
+        }
+
+        .resize {
+            height: 60em;
+        }
+
+        .picture {
+            width: 116%;
+            top: 14em;
+            left: -7em;
+        }
+    }
+
+    #skills {
+        .img-box {
+            width: 22em;
+            height: 22em;
+        }
+    }
+}
