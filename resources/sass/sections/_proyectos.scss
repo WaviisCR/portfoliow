@@ -1,6 +1,9 @@
 #proyectos{
 	.proyecto{
 		margin:auto;
+		 margin: 3%;
+    	padding: 7%;
+
 	}
 	.p-box{
 		width: 20em;
@@ -14,5 +17,9 @@
 	}
 	img{
 		width: 100%;
+	}
+	i{
+		margin: 1.5%;
+		color: $granate;
 	}
 }

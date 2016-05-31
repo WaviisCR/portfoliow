@@ -48,7 +48,8 @@ ul {
   background-color: #423733; }
 
 .brand {
-  background-color: #3f2738; }
+  background-color: #3f2738;
+  margin: 1%; }
 
 li a {
   display: block;
@@ -132,7 +133,9 @@ li a {
       padding: 2%; }
 
 #proyectos .proyecto {
-  margin: auto; }
+  margin: auto;
+  margin: 3%;
+  padding: 7%; }
 #proyectos .p-box {
   width: 20em;
   height: 13em;
@@ -143,10 +146,15 @@ li a {
   margin: 1%; }
 #proyectos img {
   width: 100%; }
+#proyectos i {
+  margin: 1.5%;
+  color: #3f2738; }
 
 #skills .skill {
   margin: 8%;
   padding: 6%; }
+#skills h3 {
+  font-weight: bold; }
 #skills .img-box {
   width: 16em;
   height: 16em;
@@ -167,5 +175,30 @@ li a {
   background-image: url(../images/creative.jpg); }
 #skills .google {
   background-image: url(../images/GoogleApps.png); }
+
+@media only screen and (min-width: 1450px) and (max-width: 2560px) {
+  h1 {
+    font-size: 6.5em; }
+
+  .navbar-fixed-left {
+    width: 12%; }
+    .navbar-fixed-left a {
+      font-size: 2.2em; }
+
+  #about .hojas {
+    top: -43em;
+    width: 85%; }
+  #about p {
+    font-size: 2em; }
+  #about .resize {
+    height: 60em; }
+  #about .picture {
+    width: 116%;
+    top: 14em;
+    left: -7em; }
+
+  #skills .img-box {
+    width: 22em;
+    height: 22em; } }
 
 /*# sourceMappingURL=main.css.map */
